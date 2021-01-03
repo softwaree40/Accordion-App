@@ -26,7 +26,8 @@ function App() {
 
 
   return (
-    <div className="App">
+    <div className="container1">
+      <br/>
        <Accordion items={items}/>
     </div>
   );

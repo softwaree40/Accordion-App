@@ -7,7 +7,7 @@ const Accordion = ({items})=>{
     const renderItems = items.map((item,id)=>{
 
       return (
-        <div >
+        <div key={item.id} className="container">
            <div className="title active">
               <i  className="dropdown icon"></i>
                {item.title}
