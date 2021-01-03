@@ -19,6 +19,10 @@ function App() {
      title: "How do you  use React?",
      content: "You use React by creating Components"
   
+    },
+    {
+      title:"What is Hook?",
+      content: "Hooks are a new addition in React 16.8. They let you use state and other React features without writing a class. Hooks are backwards-compatible. This page provides an overview of Hooks for experienced React users."
     }
   
     ]
