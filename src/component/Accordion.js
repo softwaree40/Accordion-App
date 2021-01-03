@@ -12,7 +12,7 @@ const Accordion = ({items})=>{
    
     const renderItems = items.map((item,index)=>{
      const active= activeIndex === index ? "active" : ""
-         
+    
       return (
         <div className="container">
            <div onClick={()=> onTitleClick(index)} className={`title ${active}`}>
