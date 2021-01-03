@@ -1,7 +1,7 @@
 .container1 {
   border: 2px solid red;
   border-radius: 13px;
-  opacity: 0.7;
+  /* opacity: 0.7; */
   margin: 20px;
   display: flex;
   justify-content: center;
