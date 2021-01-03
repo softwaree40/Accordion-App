@@ -11,15 +11,15 @@ const Accordion = ({items})=>{
     }
    
     const renderItems = items.map((item,index)=>{
-     const [active,inactive]= activeIndex === index ? "active" : "inactive"
+     const active= activeIndex === index ? "active" : ""
          
       return (
         <div className="container">
-           <div onClick={()=> onTitleClick(index)} className={`title ${active} ${inactive}`}>
+           <div onClick={()=> onTitleClick(index)} className={`title ${active}`}>
               <i  className="dropdown icon"></i>
                {item.title}
            </div>
-           <div className={`content ${active} ${inactive}`}>
+           <div className={`content ${active}`}>
              <p>{item.content}</p>
              
            </div>
