@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/Accordion-App/static/css/main.17455675.chunk.css",
-    "main.js": "/Accordion-App/static/js/main.1339974f.chunk.js",
-    "main.js.map": "/Accordion-App/static/js/main.1339974f.chunk.js.map",
+    "main.js": "/Accordion-App/static/js/main.cbc06148.chunk.js",
+    "main.js.map": "/Accordion-App/static/js/main.cbc06148.chunk.js.map",
     "runtime-main.js": "/Accordion-App/static/js/runtime-main.d6611555.js",
     "runtime-main.js.map": "/Accordion-App/static/js/runtime-main.d6611555.js.map",
-    "static/js/2.d83bc48a.chunk.js": "/Accordion-App/static/js/2.d83bc48a.chunk.js",
-    "static/js/2.d83bc48a.chunk.js.map": "/Accordion-App/static/js/2.d83bc48a.chunk.js.map",
+    "static/js/2.2bd95074.chunk.js": "/Accordion-App/static/js/2.2bd95074.chunk.js",
+    "static/js/2.2bd95074.chunk.js.map": "/Accordion-App/static/js/2.2bd95074.chunk.js.map",
     "static/js/3.c02bb970.chunk.js": "/Accordion-App/static/js/3.c02bb970.chunk.js",
     "static/js/3.c02bb970.chunk.js.map": "/Accordion-App/static/js/3.c02bb970.chunk.js.map",
     "index.html": "/Accordion-App/index.html",
     "static/css/main.17455675.chunk.css.map": "/Accordion-App/static/css/main.17455675.chunk.css.map",
-    "static/js/2.d83bc48a.chunk.js.LICENSE.txt": "/Accordion-App/static/js/2.d83bc48a.chunk.js.LICENSE.txt"
+    "static/js/2.2bd95074.chunk.js.LICENSE.txt": "/Accordion-App/static/js/2.2bd95074.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.d6611555.js",
-    "static/js/2.d83bc48a.chunk.js",
+    "static/js/2.2bd95074.chunk.js",
     "static/css/main.17455675.chunk.css",
-    "static/js/main.1339974f.chunk.js"
+    "static/js/main.cbc06148.chunk.js"
   ]
 }
