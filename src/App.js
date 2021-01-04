@@ -1,6 +1,7 @@
 import React from "react"
 import './App.css';
 import Accordion from './component/Accordion';
+import Search from "./component/Search"
 
 function App() {
 
@@ -32,7 +33,8 @@ function App() {
   return (
     <div className="container1">
       <br/>
-       <Accordion items={items}/>
+       {/* <Accordion items={items}/> */}
+       <Search />
     </div>
   );
 }
