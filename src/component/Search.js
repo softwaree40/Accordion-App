@@ -21,17 +21,23 @@ const Search = ()=>{
             
             setNewResultFromSearch(data.query.search)
         }
-        const timeOut = setTimeout(()=>{
+         if(term && !newResultFromSearch.length){
 
-            if (term){
-                search()
+            search()
+         }else{
+
+            const timeOut = setTimeout(()=>{
+
+                if (term){
+                    search()
+                }
+            }, 500);
+            return ()=>{
+    
+                clearTimeout(timeOut)
             }
-        }, 500);
-        return ()=>{
-
-            clearTimeout(timeOut)
-        }
-
+    
+         }
      },[term])
 
      const renderResult = newResultFromSearch.map((result)=>{
