@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Accordion-App/static/css/main.17455675.chunk.css",
-    "main.js": "/Accordion-App/static/js/main.c721db4a.chunk.js",
-    "main.js.map": "/Accordion-App/static/js/main.c721db4a.chunk.js.map",
+    "main.js": "/Accordion-App/static/js/main.96017737.chunk.js",
+    "main.js.map": "/Accordion-App/static/js/main.96017737.chunk.js.map",
     "runtime-main.js": "/Accordion-App/static/js/runtime-main.e6cc7070.js",
     "runtime-main.js.map": "/Accordion-App/static/js/runtime-main.e6cc7070.js.map",
     "static/js/2.ac0996f2.chunk.js": "/Accordion-App/static/js/2.ac0996f2.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.e6cc7070.js",
     "static/js/2.ac0996f2.chunk.js",
     "static/css/main.17455675.chunk.css",
-    "static/js/main.c721db4a.chunk.js"
+    "static/js/main.96017737.chunk.js"
   ]
 }
