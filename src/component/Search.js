@@ -27,7 +27,10 @@ const Search = ()=>{
                 search()
             }
         }, 500)
-        
+        return ()=>{
+
+            clearTimeout(timeOut)
+        }
 
      },[term])
 
@@ -39,8 +42,6 @@ const Search = ()=>{
                   <div className="content">
                      <div className="header">
                            {result.title}
-                           <br/>
-                           {result.timestamp}
 
                      </div>
                         <br/>
