@@ -26,7 +26,7 @@ const Search = ()=>{
             if (term){
                 search()
             }
-        }, 500)
+        }, 500);
         return ()=>{
 
             clearTimeout(timeOut)
