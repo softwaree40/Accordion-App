@@ -4,9 +4,11 @@ import axios from "axios"
 const Search = ()=>{
       
      const [term,setTerm] = useState("")
+     const [newResultFromSearch, setNewResultFromSearch] = useState([])
+      console.log("new result search",newResultFromSearch)
      useEffect(()=>{
         const search = async()=>{
-            await axios.get("https://en.wikipedia.org/w/api.php",{
+         const {data} =   await axios.get("https://en.wikipedia.org/w/api.php",{
              params:{
                  action: "query",
                  list: "search",
@@ -16,11 +18,31 @@ const Search = ()=>{
              },
 
             });
-        
+            
+            setNewResultFromSearch(data.query.search)
         }
-        search()
+        if (term){
+            search()
+        }
        
      },[term])
+
+     const renderResult = newResultFromSearch.map((result)=>{
+        return (<div key={result.pageid} className="item">
+                   <div className="right floated content">
+                       <a className="ui button" href={`https://en.wikipedia.org?curid=${result.pageid}`} target="_blank">Go</a>
+                   </div>
+                  <div className="content">
+                     <div className="header">
+                           {result.title}
+
+                     </div>
+                       <span dangerouslySetInnerHTML={{__html:result.snippet}}></span>
+                         
+                </div>
+
+        </div>)
+     })
  return(<div>
            <div className="ui form">
                <div className="field">
@@ -29,7 +51,9 @@ const Search = ()=>{
                 </label>
                </div>
           </div>
-
+             <div className="ui celled list">
+                 {renderResult}
+             </div>
       </div>
  
  )
