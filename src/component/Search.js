@@ -51,7 +51,7 @@ const Search = ()=>{
            <div className="ui form">
                <div className="field">
                 <label>Search
-                <input type="text" value={term} onChange={(e)=> setTerm(e.target.value)}/>
+                <input type="text" value={term} onChange={(e)=> setTerm(e.target.value)} placeholder="Enter search"/>
                 </label>
                </div>
           </div>
